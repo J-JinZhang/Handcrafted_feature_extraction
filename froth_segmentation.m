@@ -16,8 +16,6 @@ Obj = VideoReader(filename);
 nFrames = Obj.NumberOfFrames;
 vidHeight = Obj.Height;     vidWidth = Obj.Width;
 step = 15*2; 
-% start = 1+step0*13;     ending = nFrames-step0*0;        %test
-% start = nFrames-600-step0*0;     ending = nFrames;      %test
 start = 1+step*6;     ending = nFrames;
 Options.upright=true;
 Options.tresh=0.0001;
